@@ -11,15 +11,15 @@ opciones = {
         'opciones_secundarias': {
             '1': {
                 'texto':  f'{Fore.GREEN}Ramsonware{Style.RESET_ALL}',
-                'comando': 'git clone https://github.com/repo1_1.git',
+                'comando': 'git clone https://github.com/networkkiller/PainFile.git',
             },
             '2': {
                 'texto': f'{Fore.GREEN}Keyloger{Style.RESET_ALL}',
                 'comando': 'git clone https://github.com/repo1_2.git',
             },
             '3': {
-                'texto': f'{Fore.GREEN}Troyano{Style.RESET_ALL}',
-                'comando': 'git clone https://github.com/repo1_2.git',
+                'texto': f'{Fore.GREEN}MalwareSourceCode{Style.RESET_ALL}',
+                'comando': 'git clone https://github.com/vxunderground/MalwareSourceCode.git',
             },
         }
     },
@@ -48,6 +48,52 @@ opciones = {
                 'comando': 'git clone https://github.com/KasRoudra/PyPhisher.git',
             },
         }
+    },
+    '4': {
+        'texto': f'{Fore.CYAN}Hacking WEb{Style.RESET_ALL}',
+        'opciones_secundarias': {
+            '1': {
+                'texto': f'{Fore.CYAN}Dirsearch{Style.RESET_ALL}',
+                'comando': 'git clone https://github.com/maurosoria/dirsearch.git',
+            },
+            '2': {
+                'texto': f'{Fore.CYAN}Scout2{Style.RESET_ALL}',
+                'comando': 'git clone https://github.com/nccgroup/Scout2.git',
+            },
+            '3': {
+                'texto': f'{Fore.CYAN}Sqlmap{Style.RESET_ALL}',
+                'comando': 'git clone https://github.com/sqlmapproject/sqlmap.git',
+            },
+             '4': {
+                'texto': f'{Fore.CYAN}Wpsploit{Style.RESET_ALL}',
+                'comando': 'git clone https://github.com/espreto/wpsploit.git',
+            },
+            '5': {
+                'texto': f'{Fore.CYAN}WS-Attacker{Style.RESET_ALL}',
+                'comando': 'git clone https://github.com/RUB-NDS/WS-Attacker.git',
+            },
+            '6': {
+                'texto': f'{Fore.CYAN}Wpscan{Style.RESET_ALL}',
+                'comando': 'git clone https://github.com/wpscanteam/wpscan.git',
+            },
+            '7': {
+                'texto': f'{Fore.CYAN}Timing_Attack{Style.RESET_ALL}',
+                'comando': 'git clone https://github.com/ffleming/timing_attack.git',
+            },
+            '8': {
+                'texto': f'{Fore.CYAN}angularjs-csti-scanner{Style.RESET_ALL}',
+                'comando': 'git clone https://github.com/tijme/angularjs-csti-scanner.git',
+            },
+            '9': {
+                'texto': f'{Fore.CYAN}WhatWeb{Style.RESET_ALL}',
+                'comando': 'git clone https://github.com/urbanadventurer/WhatWeb.git',
+            },
+            '10': {
+                'texto': f'{Fore.CYAN}Git-Scanner{Style.RESET_ALL}',
+                'comando': 'git clone https://github.com/HightechSec/git-scanner.git',
+            },
+        }
+        
     },
 }
 
