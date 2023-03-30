@@ -63,14 +63,14 @@ opciones = {
         }
     },
     '3': {
-        'texto': f'{Fore.RED}Hacking Redes sociales{Style.RESET_ALL}',
+        'texto': f'{Fore.MAGENTA}Hacking Redes sociales{Style.RESET_ALL}',
         'opciones_secundarias': {
             '1': {
-                'texto': f'{Fore.RED}Zphisher{Style.RESET_ALL}',
+                'texto': f'{Fore.MAGENTA}Zphisher{Style.RESET_ALL}',
                 'comando': 'git clone https://github.com/htr-tech/zphisher.git',
             },
             '2': {
-                'texto': f'{Fore.RED}Pyphisher{Style.RESET_ALL}',
+                'texto': f'{Fore.MAGENTA}Pyphisher{Style.RESET_ALL}',
                 'comando': 'git clone https://github.com/KasRoudra/PyPhisher.git',
             },
         }
@@ -216,15 +216,11 @@ opciones = {
         }
     },
     '6': {
-        'texto': f'{Fore.BLUE}Anonimato{Style.RESET_ALL}',
+        'texto': f'{Fore.WHITE}Anonimato{Style.RESET_ALL}',
         'opciones_secundarias': {
             '1': {
-                'texto': f'{Fore.BLUE}Whoami{Style.RESET_ALL}',
+                'texto': f'{Fore.WHITE}Whoami{Style.RESET_ALL}',
                 'comando': 'git clone https://github.com/owerdogan/whoami-project.git',
-            },
-            '2': {
-                'texto': f'{Fore.BLUE}apache-ultimate-bad-bot-blocker{Style.RESET_ALL}',
-                'comando': 'git clone https://github.com/mitchellkrogza/apache-ultimate-bad-bot-blocker.git',
             },
         }
     },
@@ -374,103 +370,107 @@ opciones = {
         }
     },
     '9': {
-        'texto': f'{Fore.BLUE}Network Hacking{Style.RESET_ALL}',
+        'texto': f'{Fore.GREEN}Network Hacking{Style.RESET_ALL}',
         'opciones_secundarias': {
             '1': {
-                'texto': f'{Fore.BLUE}Evillimiter{Style.RESET_ALL}',
+                'texto': f'{Fore.GREEN}Evillimiter{Style.RESET_ALL}',
                 'comando': 'git clone https://github.com/bitbrute/evillimiter.git',
             },
             '2': {
-                'texto': f'{Fore.BLUE}RoutoPsy{Style.RESET_ALL}',
+                'texto': f'{Fore.GREEN}RoutoPsy{Style.RESET_ALL}',
                 'comando': 'git clone https://github.com/sensepost/routopsy.git',
             },
             '3': {
-                'texto': f'{Fore.BLUE}Kismet{Style.RESET_ALL}',
+                'texto': f'{Fore.GREEN}Kismet{Style.RESET_ALL}',
                 'comando': 'git clone https://github.com/kismetwireless/kismet.git',
             },
             '4': {
-                'texto': f'{Fore.BLUE}NetStumbler{Style.RESET_ALL}',
+                'texto': f'{Fore.GREEN}NetStumbler{Style.RESET_ALL}',
                 'comando': 'git clone https://github.com/kismetwireless/kismet.git',
             },
             '5': {
-                'texto': f'{Fore.BLUE}Aircrack-ng (necesitas una antena que acepte modo monitor){Style.RESET_ALL}',
+                'texto': f'{Fore.GREEN}Aircrack-ng (necesitas una antena que acepte modo monitor){Style.RESET_ALL}',
                 'comando': 'git clone https://github.com/aircrack-ng/aircrack-ng.git',
             },
              '6': {
-                'texto': f'{Fore.BLUE}Ettercap (esta incluida en kali){Style.RESET_ALL}',
+                'texto': f'{Fore.GREEN}Ettercap (esta incluida en kali){Style.RESET_ALL}',
                 'comando': 'git clone https://github.com/Ettercap/ettercap.git',
             },
             '7': {
-                'texto': f'{Fore.BLUE}AngryIPscan{Style.RESET_ALL}',
+                'texto': f'{Fore.GREEN}AngryIPscan{Style.RESET_ALL}',
                 'comando': 'git clone https://github.com/angryip/ipscan.git',
             },
             '8': {
-                'texto': f'{Fore.BLUE}Wifite(necesitas una antena que acepte modo monitor){Style.RESET_ALL}',
+                'texto': f'{Fore.GREEN}Wifite(necesitas una antena que acepte modo monitor){Style.RESET_ALL}',
                 'comando': 'git clone https://github.com/derv82/wifite2.git',
             },
             
         }
     },
     '10': {
-        'texto': f'{Fore.BLUE}Herramientas Forences{Style.RESET_ALL}',
+        'texto': f'{Fore.YELLOW}Herramientas Forences{Style.RESET_ALL}',
         'opciones_secundarias': {
             '1': {
-                'texto': f'{Fore.BLUE}Autopsy{Style.RESET_ALL}',
+                'texto': f'{Fore.YELLOW}Autopsy{Style.RESET_ALL}',
                 'comando': 'git clone https://github.com/sleuthkit/autopsy.git',
             },
             '2': {
-                'texto': f'{Fore.BLUE}Digital Forensics Framework{Style.RESET_ALL}',
+                'texto': f'{Fore.YELLOW}Digital Forensics Framework{Style.RESET_ALL}',
                 'comando': 'git clone https://github.com/arxsys/dff.git',
             },
             '3': {
-                'texto': f'{Fore.BLUE}Dissect{Style.RESET_ALL}',
+                'texto': f'{Fore.YELLOW}Dissect{Style.RESET_ALL}',
                 'comando': 'git clone https://github.com/fox-it/dissect.git',
             },
             '4': {
-                'texto': f'{Fore.BLUE}Wireshark{Style.RESET_ALL}',
+                'texto': f'{Fore.YELLOW}Wireshark{Style.RESET_ALL}',
                 'comando': 'firefox https://www.wireshark.org',
             },
             '5': {
-                'texto': f'{Fore.BLUE}DumpZilla{Style.RESET_ALL}',
+                'texto': f'{Fore.YELLOW}DumpZilla{Style.RESET_ALL}',
                 'comando': 'git clone https://github.com/Busindre/dumpzilla.git',
             },
              '6': {
-                'texto': f'{Fore.BLUE}ExifTool{Style.RESET_ALL}',
+                'texto': f'{Fore.YELLOW}ExifTool{Style.RESET_ALL}',
                 'comando': 'git clone https://github.com/exiftool/exiftool.git',
             },
              '7': {
-                'texto': f'{Fore.BLUE}Andriller{Style.RESET_ALL}',
+                'texto': f'{Fore.YELLOW}Andriller{Style.RESET_ALL}',
                 'comando': 'git clone https://github.com/den4uk/andriller.git',
             },
              '8': {
-                'texto': f'{Fore.BLUE}ALEAPP{Style.RESET_ALL}',
+                'texto': f'{Fore.YELLOW}ALEAPP{Style.RESET_ALL}',
                 'comando': 'git clone https://github.com/abrignoni/ALEAPP.git',
             },
             '9': {
-                'texto': f'{Fore.BLUE}AvillaForensics{Style.RESET_ALL}',
+                'texto': f'{Fore.YELLOW}AvillaForensics{Style.RESET_ALL}',
                 'comando': 'firefox https://github.com/AvillaDaniel/AvillaForensics.git',
             },
             '9': {
-                'texto': f'{Fore.BLUE}MVT{Style.RESET_ALL}',
+                'texto': f'{Fore.YELLOW}MVT{Style.RESET_ALL}',
                 'comando': 'git clone https://github.com/mvt-project/mvt.git',
             },
             
         }
     },
     '11': {
-        'texto': f'{Fore.BLUE}Criptografia{Style.RESET_ALL}',
+        'texto': f'{Fore.WHITE}Criptografia{Style.RESET_ALL}',
         'opciones_secundarias': {
             '1': {
-                'texto': f'{Fore.BLUE}javascript-obfuscator{Style.RESET_ALL}',
+                'texto': f'{Fore.WHITE}javascript-obfuscator{Style.RESET_ALL}',
                 'comando': 'git clone https://github.com/javascript-obfuscator/javascript-obfuscator.git',
             },
             '2': {
-                'texto': f'{Fore.BLUE}Faz-SHC (encriptar el texto que le das a un Shellcode){Style.RESET_ALL}',
+                'texto': f'{Fore.WHITE}Faz-SHC (encriptar el texto que le das a un Shellcode){Style.RESET_ALL}',
                 'comando': 'git clone https://github.com/mfazrinizar/Faz-SHC.git',
             },
              '3': {
-                'texto': f'{Fore.BLUE}CripToVoli{Style.RESET_ALL}',
+                'texto': f'{Fore.WHITE}CripToVoli{Style.RESET_ALL}',
                 'comando': 'git clone https://github.com/networkkiller/CripToVoli.git',
+            },
+            '3': {
+                'texto': f'{Fore.WHITE}Encripto{Style.RESET_ALL}',
+                'comando': 'firefox https://encrypto.softonic.com/',
             },
              
              
@@ -478,26 +478,26 @@ opciones = {
         }
     },
     '12': {
-        'texto': f'{Fore.BLUE}Cracking passwords{Style.RESET_ALL}',
+        'texto': f'{Fore.RED}Cracking passwords{Style.RESET_ALL}',
         'opciones_secundarias': {
             '1': {
-                'texto': f'{Fore.BLUE}Medusa(esta incluida en Kali linux){Style.RESET_ALL}',
+                'texto': f'{Fore.RED}Medusa(esta incluida en Kali linux){Style.RESET_ALL}',
                 'comando': 'git clone https://github.com/jmk-foofus/medusa.git',
             },
             '2': {
-                'texto': f'{Fore.CYAN}Cain & Abel{Style.RESET_ALL}',
+                'texto': f'{Fore.RED}Cain & Abel{Style.RESET_ALL}',
                 'comando': ' firefox https://sectools.org/tool/cain/',
             },
             '3': {
-                'texto': f'{Fore.CYAN}L0phtcrack{Style.RESET_ALL}',
+                'texto': f'{Fore.RED}L0phtcrack{Style.RESET_ALL}',
                 'comando': ' git clone https://github.com/Brute-f0rce/l0phtcrack.git',
             },
             '4': {
-                'texto': f'{Fore.CYAN}HashCat{Style.RESET_ALL}',
+                'texto': f'{Fore.RED}HashCat{Style.RESET_ALL}',
                 'comando': ' git clone https://github.com/hashcat/hashcat.git',
             },
              '4': {
-                'texto': f'{Fore.CYAN}John the Ripper (viene en Kali Linux){Style.RESET_ALL}',
+                'texto': f'{Fore.RED}John the Ripper (viene en Kali Linux){Style.RESET_ALL}',
                 'comando': ' git clone https://github.com/openwall/john.git',
             },
              
@@ -505,26 +505,26 @@ opciones = {
         }
     },
     '13': {
-        'texto': f'{Fore.BLUE}Esteganografia{Style.RESET_ALL}',
+        'texto': f'{Fore.CYAN}Esteganografia{Style.RESET_ALL}',
         'opciones_secundarias': {
             '1': {
-                'texto': f'{Fore.BLUE}EstegoImagen{Style.RESET_ALL}',
+                'texto': f'{Fore.CYAN}EstegoImagen{Style.RESET_ALL}',
                 'comando': 'git clone https://github.com/c04tl/EstegoImagen.git',
             },
             '2': {
-                'texto': f'{Fore.BLUE}BAG{Style.RESET_ALL}',
+                'texto': f'{Fore.CYAN}BAG{Style.RESET_ALL}',
                 'comando': 'git clone https://github.com/oanderoficial/BAG.git',
             },
             '3': {
-                'texto': f'{Fore.BLUE}PixMsg{Style.RESET_ALL}',
+                'texto': f'{Fore.CYAN}PixMsg{Style.RESET_ALL}',
                 'comando': 'git clone https://github.com/LvMalware/PixMsg.git',
             },
             '4': {
-                'texto': f'{Fore.BLUE}hide-messages-inside-images{Style.RESET_ALL}',
+                'texto': f'{Fore.CYAN}hide-messages-inside-images{Style.RESET_ALL}',
                 'comando': 'git clone https://github.com/pauladj/hide-messages-inside-images.git',
             },
             '5': {
-                'texto': f'{Fore.BLUE}ExifTool{Style.RESET_ALL}',
+                'texto': f'{Fore.CYAN}ExifTool{Style.RESET_ALL}',
                 'comando': 'git clone https://github.com/exiftool/exiftool.git',
             },
              
@@ -532,50 +532,50 @@ opciones = {
         }
     },
     '14': {
-        'texto': f'{Fore.BLUE}Recopilacion de Informacion de Objetivos{Style.RESET_ALL}',
+        'texto': f'{Fore.MAGENTA}Recopilacion de Informacion de Objetivos{Style.RESET_ALL}',
         'opciones_secundarias': {
             '1': {
-                'texto': f'{Fore.BLUE}Shodan{Style.RESET_ALL}',
+                'texto': f'{Fore.MAGENTA}Shodan{Style.RESET_ALL}',
                 'comando': 'firefox https://www.shodan.io',
             },
             '2': {
-                'texto': f'{Fore.BLUE}Maltego{Style.RESET_ALL}',
+                'texto': f'{Fore.MAGENTA}Maltego{Style.RESET_ALL}',
                 'comando': 'maltego',
             },
             '3': {
-                'texto': f'{Fore.BLUE}Osintgram {Style.RESET_ALL}',
+                'texto': f'{Fore.MAGENTA}Osintgram {Style.RESET_ALL}',
                 'comando': 'git clone https://github.com/Datalux/Osintgram.git',
             },
             '4': {
-                'texto': f'{Fore.BLUE}OSINT (conjunto de pdf de metodos de OSINT){Style.RESET_ALL}',
+                'texto': f'{Fore.MAGENTA}OSINT (conjunto de pdf de metodos de OSINT){Style.RESET_ALL}',
                 'comando': 'git clone https://github.com/pauladj/hide-messages-inside-images.git',
             },
             '5': {
-                'texto': f'{Fore.BLUE}OSINT-Framework{Style.RESET_ALL}',
+                'texto': f'{Fore.MAGENTA}OSINT-Framework{Style.RESET_ALL}',
                 'comando': 'git clone https://github.com/lockfale/OSINT-Framework.git',
             },
             '6': {
-                'texto': f'{Fore.BLUE}Sherlock{Style.RESET_ALL}',
+                'texto': f'{Fore.MAGENTA}Sherlock{Style.RESET_ALL}',
                 'comando': 'git clone https://github.com/sherlock-project/sherlock.git',
             },
              '7': {
-                'texto': f'{Fore.BLUE}Infoga(esta herramienta es privada,encuentren la forma){Style.RESET_ALL}',
+                'texto': f'{Fore.MAGENTA}Infoga(esta herramienta es privada,encuentren la forma){Style.RESET_ALL}',
                 'comando': 'git clone https://github.com/m4ll0k/Infoga.git',
             },
             '8': {
-                'texto': f'{Fore.BLUE}osint_stuff_tool_collection{Style.RESET_ALL}',
+                'texto': f'{Fore.MAGENTA}osint_stuff_tool_collection{Style.RESET_ALL}',
                 'comando': ' firefox https://github.com/cipher387/osint_stuff_tool_collection.git',
             },
             '9': {
-                'texto': f'{Fore.BLUE}Mosint{Style.RESET_ALL}',
+                'texto': f'{Fore.MAGENTA}Mosint{Style.RESET_ALL}',
                 'comando': ' git clone https://github.com/alpkeskin/mosint.git',
             },
              '10': {
-                'texto': f'{Fore.BLUE}email2phonenumber{Style.RESET_ALL}',
+                'texto': f'{Fore.MAGENTA}email2phonenumber{Style.RESET_ALL}',
                 'comando': ' git clone https://github.com/martinvigo/email2phonenumber.git',
             },
              '11': {
-                'texto': f'{Fore.BLUE}Osint-Tools (conjunto de herramientas){Style.RESET_ALL}',
+                'texto': f'{Fore.MAGENTA}Osint-Tools (conjunto de herramientas){Style.RESET_ALL}',
                 'comando': 'firefox https://github.com/digitaldisarray/OSINT-Tools.git',
             },
              
@@ -593,17 +593,14 @@ def mostrar_opciones_secundarias(opciones_secundarias):
 
 os.system('cls' if os.name == 'nt' else 'clear')
 print("""
-     ██████████                                              █████   █████            █████           
-░░███░░░░░█                                             ░░███   ░░███            ░░███            
- ░███  █ ░  █████ █████  ██████  ████████  █████ ████    ░███    ░███   ██████   ███████    █████ 
- ░██████   ░░███ ░░███  ███░░███░░███░░███░░███ ░███     ░███████████  ░░░░░███ ░░░███░    ███░░  
- ░███░░█    ░███  ░███ ░███████  ░███ ░░░  ░███ ░███     ░███░░░░░███   ███████   ░███    ░░█████ 
- ░███ ░   █ ░░███ ███  ░███░░░   ░███      ░███ ░███     ░███    ░███  ███░░███   ░███ ███ ░░░░███
- ██████████  ░░█████   ░░██████  █████     ░░███████     █████   █████░░████████  ░░█████  ██████ 
-░░░░░░░░░░    ░░░░░     ░░░░░░  ░░░░░       ░░░░░███    ░░░░░   ░░░░░  ░░░░░░░░    ░░░░░  ░░░░░░  
-                                            ███ ░███                                              
-                                           ░░██████                                               
-                                            ░░░░░░                  
+█████   █████          ████   ███  ███████████                   ████         
+░░███   ░░███          ░░███  ░░░  ░█░░░███░░░█                  ░░███         
+ ░███    ░███   ██████  ░███  ████ ░   ░███  ░   ██████   ██████  ░███   █████ 
+ ░███    ░███  ███░░███ ░███ ░░███     ░███     ███░░███ ███░░███ ░███  ███░░  
+ ░░███   ███  ░███ ░███ ░███  ░███     ░███    ░███ ░███░███ ░███ ░███ ░░█████ 
+  ░░░█████░   ░███ ░███ ░███  ░███     ░███    ░███ ░███░███ ░███ ░███  ░░░░███
+    ░░███     ░░██████  █████ █████    █████   ░░██████ ░░██████  █████ ██████ 
+     ░░░       ░░░░░░  ░░░░░ ░░░░░    ░░░░░     ░░░░░░   ░░░░░░  ░░░░░ ░░░░░░           
                                             𝖌𝖎𝖙𝖍𝖚𝖇 Networkkiller
     """)
 print('Seleccione una opción:\n')
