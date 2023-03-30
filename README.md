@@ -1,7 +1,5 @@
 # VoliTools
  
-# CripToVoli
-
 <h1 align='center'>CripToVoli</h1>
 <p align='center'>Conjunto de Herramientas utiles para Hacking y ciberseguridad  en general</p>
 
